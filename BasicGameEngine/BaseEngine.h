@@ -10,7 +10,9 @@ protected:
 	void TimerUpdate(void);
 
 private:
-
+	double frameCounter;
+	double startTime;
+	double lastTime ;
 };
 #endif // !BASEENGINE_H
 
