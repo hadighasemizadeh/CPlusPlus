@@ -1,0 +1,6 @@
+Name           Average        Grade          
+----------------------------------------
+Hadi           16.75          C              
+Jose           14.75          C              
+Rui            18.5           B              
+Nuno           7.5            E              
