@@ -73,6 +73,50 @@ void Merge(int arr[], int low, int middle,int high) {
 
 }
 
+Bubble Sort in C++:
+
+// Not Optimized implementation of Bubble sort 
+void bubbleSort(int arr[], int n) 
+{ 
+   int i, j; 
+   for (i = 0; i < n-1; i++)       
+       for (j = 0; j < n-i-1; j++)  
+           if (arr[j] > arr[j+1]) 
+              swap(&arr[j], &arr[j+1]); 
+}
+
+// Optimized implementation of Bubble sort 
+void bubbleSort(int arr[], int n) 
+{ 
+   int i, j; 
+   bool swapped; 
+   for (i = 0; i < n-1; i++) 
+   { 
+     swapped = false; 
+     for (j = 0; j < n-i-1; j++) 
+     { 
+        if (arr[j] > arr[j+1]) 
+        { 
+           swap(&arr[j], &arr[j+1]); 
+           swapped = true; 
+        } 
+     } 
+  
+     // IF none of two elements were swapped by inner loop, then break 
+     if (swapped == false) 
+        break; 
+   } 
+} 
+
+// Swap function
+void swap(int *xp, int *yp) 
+{ 
+    int temp = *xp; 
+    *xp = *yp; 
+    *yp = temp; 
+}
+
+
 // Merge sort algoritm
 void MergeSort(int arr[], int low, int high) {
 	if (low<high) {
