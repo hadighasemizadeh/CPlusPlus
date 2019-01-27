@@ -9,3 +9,10 @@ CPP script repos:
    In this script, I wrote a simple version of vector class in which I used dynamic memory 
    and handled memory in order to donot encounter with memory leak. I used template so we can
    use it for different data types.
+
+- Design Patterns
+	- Behavioral
+		- Chain of responsibility
+		- Command
+			+ Command
+			+ Command_Composition
