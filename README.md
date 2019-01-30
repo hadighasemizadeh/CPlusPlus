@@ -16,3 +16,10 @@ CPP script repos:
 		- Command
 			+ Command
 			+ Command_Composition
+		-Iterator
+			+BinaryTree Iterator
+		- Mediator
+			+ EvenBroker
+		- Memento
+			+ restore
+			+ undo_redo
