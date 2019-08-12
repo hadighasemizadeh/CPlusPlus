@@ -1,0 +1,7 @@
+﻿  CommandInvoker.cpp
+c:\users\hadig\onedrive\desktop\cplusplus\designpatterns\behavioraldesignpattern\commanddesignpattern\commandinvoker.cpp(23): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  ExecuteExtractionCommand.cpp
+c:\users\hadig\onedrive\desktop\cplusplus\designpatterns\behavioraldesignpattern\commanddesignpattern\executeextractioncommand.cpp(15): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  StartExtractionCommand.cpp
+c:\users\hadig\onedrive\desktop\cplusplus\designpatterns\behavioraldesignpattern\commanddesignpattern\startextractioncommand.cpp(15): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  Generating Code...

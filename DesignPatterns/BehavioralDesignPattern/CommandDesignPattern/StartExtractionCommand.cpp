@@ -1,11 +1,8 @@
-#include "pch.h"
 #include "StartExtractionCommand.h"
-
 
 StartExtractionCommand::StartExtractionCommand()
 {
 }
-
 
 StartExtractionCommand::~StartExtractionCommand()
 {

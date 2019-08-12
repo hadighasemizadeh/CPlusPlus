@@ -1,0 +1,2 @@
+﻿  MediatorDesignPattern.cpp
+c:\users\hadig\onedrive\desktop\cplusplus\designpatterns\behavioraldesignpattern\mediatordesignpattern\mediatordesignpattern.cpp(22): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
