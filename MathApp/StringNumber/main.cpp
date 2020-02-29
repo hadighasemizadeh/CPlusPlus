@@ -149,7 +149,8 @@ int main()
 	{
 		Timer t;
 		StringNumber str{ "2" };
-		str.SetPrecision(100000);
+		// Change the precision to any size_t (a bigger number costs you more calculation time) number.
+		str.SetPrecision(10000);
 
 		cout << "Sun of digits of give number is:" << str.SumOfDigitsIn(str.Sqrt()) << endl;
 	}
