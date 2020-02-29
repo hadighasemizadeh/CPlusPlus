@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "StringNumber.h"
 #include <algorithm>
 #include <iostream>

@@ -1,5 +1,3 @@
-#pragma once
-
 #ifndef _TIMER
 #define _TIMER
 
